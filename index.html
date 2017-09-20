@@ -6,10 +6,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   </head>
   <body>
-    <div class="carousel">
+    <div class="carousel carousel-slider">
       <a class="carousel-item" href="#one!"><img src="https://images5.alphacoders.com/491/thumb-1920-491120.png"></a>
       <a class="carousel-item" href="#two!"><img src="https://i.pinimg.com/originals/8a/65/13/8a65134504e7ec2bc9f400e4830d67e8.jpg"></a>
       <a class="carousel-item" href="#three!"><img src="http://simplywallpaper.net/pictures/2010/11/28/Light-Cycle-3-Tron-Legacy-Wallpaper.jpg"></a>
     </div>
+
+    <script>
+     $('.carousel.carousel-slider').carousel({fullWidth: true});
+    </script>
   </body>
 </html>
