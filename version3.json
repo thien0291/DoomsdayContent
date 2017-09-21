@@ -1,0 +1,24 @@
+{
+	"versionData": {
+		"1": {
+			"version": "1.0.1a",
+			"versionId": 1,
+			"description": "Init update, new map",
+      "downloadLinks": {
+        "windows": "https://nodejs.org/dist/v8.5.0/node-v8.5.0-x64.msi",
+        "linux": "https://nodejs.org/dist/v8.5.0/node-v8.5.0-x64.msi",
+        "darwin": "https://nodejs.org/dist/v8.5.0/node-v8.5.0-x64.msi"
+      }
+    },
+		"2": {
+			"version": "1.0.2a",
+			"versionId": 2,
+			"description": "new map, new enemy",
+			"downloadLinks": {
+        "windows": "https://nodejs.org/dist/v8.5.0/node-v8.5.0-x64.msi",
+        "linux": "https://nodejs.org/dist/v8.5.0/node-v8.5.0-x64.msi",
+        "darwin": "https://nodejs.org/dist/v8.5.0/node-v8.5.0-x64.msi"
+      }
+		}
+	}
+}
