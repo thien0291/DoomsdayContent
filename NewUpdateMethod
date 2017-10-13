@@ -7,7 +7,7 @@
 			"filename": "node.msi",
 			"source": "https:\/\/raw.githubusercontent.com\/thien0291\/DoomsdayContent\/master\/version3.json",
 			"path": "\\Terrain\\Content\\Paks",
-			"size": 16363520,
+			"size": 715,
 			"hash": "not-support-yet"
 		}]
 	}
