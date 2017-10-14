@@ -4,10 +4,10 @@
 	"description": "Init new map",
 	"files": {
 		"windows": [{
-			"filename": "node.msi",
-			"source": "https:\/\/raw.githubusercontent.com\/thien0291\/DoomsdayContent\/master\/version3.json",
+			"filename": "Terrain-WindowsNoEditor_P.pak",
+			"source": "https:\/\/www.dropbox.com\/s\/zswurwlpmw8vmkc\/Terrain-WindowsNoEditor_P.pak?dl=1",
 			"path": "\\Terrain\\Content\\Paks",
-			"size": 715,
+			"size": 257049039,
 			"hash": "not-support-yet"
 		}]
 	}
