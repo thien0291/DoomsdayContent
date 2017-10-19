@@ -1,19 +1,101 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  </head>
-  <body>
-    <div class="carousel carousel-slider">
-      <a class="carousel-item" href="#one!"><img src="https://images5.alphacoders.com/491/thumb-1920-491120.png"></a>
-      <a class="carousel-item" href="#two!"><img src="https://i.pinimg.com/originals/8a/65/13/8a65134504e7ec2bc9f400e4830d67e8.jpg"></a>
-      <a class="carousel-item" href="#three!"><img src="http://simplywallpaper.net/pictures/2010/11/28/Light-Cycle-3-Tron-Legacy-Wallpaper.jpg"></a>
-    </div>
+    <head>
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
 
-    <script>
-     $('.carousel.carousel-slider').carousel({fullWidth: true});
-    </script>
-  </body>
-</html>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+
+      <style>
+        .blue {
+          color: blue;
+        }
+        .yellow{
+          color: yellow;
+        }
+        .green{
+          color: green;
+        }
+
+        .bottom-line{
+          background-color: rgba(1,1 ,1 ,0.8); 
+          width: 100%; 
+          position: fixed;
+          left: 0%;
+          right: 0%;
+        }
+      </style>
+
+    <div class="container col-sm-12" style="">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+      
+            <div class="item active">
+              <img src="https://raw.githubusercontent.com/thien0291/DoomsdayContent/master/sc1.jpg" alt="Combat" style="width:100%;">
+              <div class="carousel-caption bottom-line">
+                <h3 class="yellow">Combat hoành tráng</h3>
+                <p class="yellow">Nhiều người mới vui. Rủ thêm bạn bè nhé</p>
+              </div>
+            </div>
+      
+            
+
+            <div class="item">
+              <img src="https://raw.githubusercontent.com/thien0291/DoomsdayContent/master/ocean1.JPG" alt="Ocean" style="width:100%;">
+              <div class="carousel-caption bottom-line" >
+                <h3 class="yellow">Biển, điều tuyệt vời nhất</h3>
+                <p class="yellow">Đôi khi tôi thèm biển, mà biển thì lại quá xa nơi tôi sống...</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <img src="https://raw.githubusercontent.com/thien0291/DoomsdayContent/master/cave.jpg" alt="Cave" style="width:100%;">
+              <div class="carousel-caption bottom-line">
+                <h3 class="yellow">Hang động</h3>
+                <p class="yellow">Và vô số cảnh đẹp mà bạn cần khám phá...</p>
+              </div>
+            </div>
+
+            <div class="item" style="width: 100%; height: 100%; display : flex; align-items : center;">
+              <a href="https://www.facebook.com/groups/doomsdaytest/" style="text-align: center; font-size: xx-large; width: 100%;"> Tham gia nhóm trên fb!!! </a>
+            </div> 
+        
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+          
+      
+    
+  
+      <script>
+        $('#myCarousel').carousel({fullWidth: true, interval: 1000 * 5});
+      </script>
+    </body>
+  </html>
